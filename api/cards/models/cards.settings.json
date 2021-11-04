@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cards",
+  "info": {
+    "name": "cards"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "four_cards",
+  "info": {
+    "name": "four-cards"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

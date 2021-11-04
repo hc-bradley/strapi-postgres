@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/four-cards",
+      "handler": "four-cards.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/four-cards/count",
+      "handler": "four-cards.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/four-cards/:id",
+      "handler": "four-cards.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/four-cards",
+      "handler": "four-cards.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/four-cards/:id",
+      "handler": "four-cards.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/four-cards/:id",
+      "handler": "four-cards.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

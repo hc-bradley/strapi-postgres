@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "card-category",
+  "info": {
+    "name": "card-category",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "page": {
+      "via": "card_categories",
+      "model": "pages"
+    }
+  }
+}
