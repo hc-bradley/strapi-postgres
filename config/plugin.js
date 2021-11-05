@@ -15,8 +15,8 @@ module.exports = {
         credentials: true,
         origin: (origin, callback) => {
             const whitelist = [
-                "http://site1.com",
-                "https://site2.com"
+                "http://concord-strapi.onrender.com",
+                "https://concord-strapi.onrender.com"
             ];
 
             if (whitelist.indexOf(origin) !== -1) {
