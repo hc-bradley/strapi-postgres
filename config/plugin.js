@@ -9,6 +9,7 @@ module.exports = {
     apolloServer: {
       tracing: false,
       playground: true,
+      playgroundAlways: true,
     },
   },
 };
